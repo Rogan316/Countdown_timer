@@ -13,9 +13,6 @@ class CountdownTimerApp:
         self.time_label = tk.Label(root, text="Time Remaining: ")
         self.time_label.pack()
 
-        #self.start_button = tk.Button(root, text="Start", command=self.start_timer)
-        #self.start_button.pack()
-
         self.duration = 0
         self.running = False
 
